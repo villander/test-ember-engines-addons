@@ -14,12 +14,6 @@ const App = Application.extend({
         servcies: [],
         externalRoutes: {}
       }
-    },
-    myEngineB: {
-      dependencies: {
-        servcies: [],
-        externalRoutes: {}
-      }
     }
   }
 });

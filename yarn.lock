@@ -3362,7 +3362,7 @@ ember-power-select-with-create@^0.6.1:
     ember-cli-htmlbars "^2.0.1"
     ember-power-select "^2.0.0"
 
-ember-power-select@^2.0.0, ember-power-select@~2.2.3:
+ember-power-select@^2.0.0, ember-power-select@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-2.2.3.tgz#ab23ba0c1bcf743b60703afb0655788ccb0912e4"
   integrity sha512-Y1sgUD7e78szL5bSdmqIFI175NNF1iw92JsDFY56AxYXQk/0se58P07fiyHgWQ5YgC5ilS3bHmkWJ6hAw6Q1lA==
