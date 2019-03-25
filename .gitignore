@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+/packages/*/node_modules
+
+# compiled output
+/packages/*/dist
+/packages/*/tmp
+
+# misc
+/packages/*/.sass-cache
+/packages/*/coverage/*
+**/concat-stats-for
+yarn-error.log
+
+# WebStorm & PhpStorm config files
+.idea
+
