@@ -1845,7 +1845,7 @@ broccoli-clean-css@^1.1.0:
 
 broccoli-concat-analyser@^4.3.4:
   version "4.3.4"
-  resolved "https://nexus.cropster.cc/repository/npm/broccoli-concat-analyser/-/broccoli-concat-analyser-4.3.4.tgz#d91574e1cfd75d00198726d067570f64ec01ef50"
+  resolved "https://registry.yarnpkg.com/broccoli-concat-analyser/-/broccoli-concat-analyser-4.3.4.tgz#d91574e1cfd75d00198726d067570f64ec01ef50"
   integrity sha512-60nTdxIYkLzP/BabTvXPydjAxC83+FZgPAeS5pq/OJsvRgD8n/rNgrrSsqTKu5/muQ9qDwf3p4qFNgwNbh5K6g==
   dependencies:
     filesize "^3.3.0"
@@ -2455,7 +2455,7 @@ clean-up-path@^1.0.0:
 
 cli-cursor@^1.0.2:
   version "1.0.2"
-  resolved "https://nexus.cropster.cc/repository/npm/cli-cursor/-/cli-cursor-1.0.2.tgz#64da3f7d56a54412e59794bd62dc35295e8f2987"
+  resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-1.0.2.tgz#64da3f7d56a54412e59794bd62dc35295e8f2987"
   integrity sha1-ZNo/fValRBLll5S9Ytw1KV6PKYc=
   dependencies:
     restore-cursor "^1.0.1"
@@ -2469,7 +2469,7 @@ cli-cursor@^2.1.0:
 
 cli-spinners@^0.2.0:
   version "0.2.0"
-  resolved "https://nexus.cropster.cc/repository/npm/cli-spinners/-/cli-spinners-0.2.0.tgz#85078737913b880f6ec9ffe7b65e83ec7776284f"
+  resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-0.2.0.tgz#85078737913b880f6ec9ffe7b65e83ec7776284f"
   integrity sha1-hQeHN5E7iA9uyf/ntl6D7Hd2KE8=
 
 cli-spinners@^2.0.0:
@@ -2568,7 +2568,12 @@ commander@2.8.x:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@2.x.x, commander@^2.15.1, commander@^2.19.0, commander@^2.5.0, commander@^2.6.0, commander@^2.7.1, commander@~2.19.0:
+commander@2.x.x, commander@^2.7.1:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
+  integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
+
+commander@^2.15.1, commander@^2.19.0, commander@^2.5.0, commander@^2.6.0, commander@~2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
@@ -2907,7 +2912,7 @@ diff@^4.0.1:
 
 dom-serializer@0:
   version "0.1.1"
-  resolved "https://nexus.cropster.cc/repository/npm/dom-serializer/-/dom-serializer-0.1.1.tgz#1ec4059e284babed36eec2941d4a970a189ce7c0"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.1.tgz#1ec4059e284babed36eec2941d4a970a189ce7c0"
   integrity sha512-l0IU0pPzLWSHBcieZbpOKgkIn3ts3vAh7ZuFyXNwJxJXk/c4Gwj9xaTJwIDVQCXawWD0qb3IzMGH5rglQaO0XA==
   dependencies:
     domelementtype "^1.3.0"
@@ -2915,19 +2920,19 @@ dom-serializer@0:
 
 domelementtype@1, domelementtype@^1.3.0, domelementtype@^1.3.1:
   version "1.3.1"
-  resolved "https://nexus.cropster.cc/repository/npm/domelementtype/-/domelementtype-1.3.1.tgz#d048c44b37b0d10a7f2a3d5fee3f4333d790481f"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.3.1.tgz#d048c44b37b0d10a7f2a3d5fee3f4333d790481f"
   integrity sha512-BSKB+TSpMpFI/HOxCNr1O8aMOTZ8hT3pM3GQ0w/mWRmkhEDSFJkkyzz4XQsBV44BChwGkrDfMyjVD0eA2aFV3w==
 
 domhandler@^2.3.0:
   version "2.4.2"
-  resolved "https://nexus.cropster.cc/repository/npm/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
 
 domutils@^1.5.1:
   version "1.7.0"
-  resolved "https://nexus.cropster.cc/repository/npm/domutils/-/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
   integrity sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
   dependencies:
     dom-serializer "0"
@@ -3059,7 +3064,7 @@ ember-cli-broccoli-sane-watcher@^3.0.0:
 
 ember-cli-bundle-analyzer@^0.0.5:
   version "0.0.5"
-  resolved "https://nexus.cropster.cc/repository/npm/ember-cli-bundle-analyzer/-/ember-cli-bundle-analyzer-0.0.5.tgz#3903f30ae6d3074c5ea480c877b51e79fb670e8e"
+  resolved "https://registry.yarnpkg.com/ember-cli-bundle-analyzer/-/ember-cli-bundle-analyzer-0.0.5.tgz#3903f30ae6d3074c5ea480c877b51e79fb670e8e"
   integrity sha512-yQTRAjJyFpemKyMMGrrS4eXDZMo1HnfTIeU850RY8RXLXypEnQuf93VEX7Gt29BZGu0bO40wMJuG5wa9pwKPJg==
   dependencies:
     broccoli-concat-analyser "^4.3.4"
@@ -3753,7 +3758,7 @@ exists-sync@0.0.4:
 
 exit-hook@^1.0.0:
   version "1.1.1"
-  resolved "https://nexus.cropster.cc/repository/npm/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
+  resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
   integrity sha1-8FyiM7SMBdVP/wd2XfhQfpXAL/g=
 
 exit@^0.1.2:
@@ -4312,7 +4317,7 @@ git-repo-version@^1.0.2:
 
 glob-all@^3.0.3:
   version "3.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/glob-all/-/glob-all-3.1.0.tgz#8913ddfb5ee1ac7812656241b03d5217c64b02ab"
+  resolved "https://registry.yarnpkg.com/glob-all/-/glob-all-3.1.0.tgz#8913ddfb5ee1ac7812656241b03d5217c64b02ab"
   integrity sha1-iRPd+17hrHgSZWJBsD1SF8ZLAqs=
   dependencies:
     glob "^7.0.5"
@@ -4539,7 +4544,7 @@ has@^1.0.1, has@^1.0.3:
 
 hash-files@^1.1.1:
   version "1.1.1"
-  resolved "https://nexus.cropster.cc/repository/npm/hash-files/-/hash-files-1.1.1.tgz#5f89c64ef21ece69c8261254b7659bd40e91d8de"
+  resolved "https://registry.yarnpkg.com/hash-files/-/hash-files-1.1.1.tgz#5f89c64ef21ece69c8261254b7659bd40e91d8de"
   integrity sha1-X4nGTvIezmnIJhJUt2Wb1A6R2N4=
   dependencies:
     async "^1.5.2"
@@ -4617,7 +4622,7 @@ hosted-git-info@^2.6.0:
 
 htmlparser2@^3.10.0:
   version "3.10.1"
-  resolved "https://nexus.cropster.cc/repository/npm/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
   integrity sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
   dependencies:
     domelementtype "^1.3.1"
@@ -4762,7 +4767,7 @@ inquirer@^6:
 
 intercept-stdout@^0.1.2:
   version "0.1.2"
-  resolved "https://nexus.cropster.cc/repository/npm/intercept-stdout/-/intercept-stdout-0.1.2.tgz#126abf1fae6c509a428a98c61a631559042ae9fd"
+  resolved "https://registry.yarnpkg.com/intercept-stdout/-/intercept-stdout-0.1.2.tgz#126abf1fae6c509a428a98c61a631559042ae9fd"
   integrity sha1-Emq/H65sUJpCipjGGmMVWQQq6f0=
   dependencies:
     lodash.toarray "^3.0.0"
@@ -5111,9 +5116,9 @@ js-tokens@^3.0.2:
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 js-yaml@3.x.x:
-  version "3.12.2"
-  resolved "https://nexus.cropster.cc/repository/npm/js-yaml/-/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
-  integrity sha512-QHn/Lh/7HhZ/Twc7vJYQTkjuCa0kaCcDcjK5Zlk2rvnUpy7DxMJ23+Jc2dcyvltwQVg1nygAVlB2oRDFHoRS5Q==
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -5283,7 +5288,7 @@ locate-path@^3.0.0:
 
 lodash._arraycopy@^3.0.0:
   version "3.0.0"
-  resolved "https://nexus.cropster.cc/repository/npm/lodash._arraycopy/-/lodash._arraycopy-3.0.0.tgz#76e7b7c1f1fb92547374878a562ed06a3e50f6e1"
+  resolved "https://registry.yarnpkg.com/lodash._arraycopy/-/lodash._arraycopy-3.0.0.tgz#76e7b7c1f1fb92547374878a562ed06a3e50f6e1"
   integrity sha1-due3wfH7klRzdIeKVi7Qaj5Q9uE=
 
 lodash._baseassign@^3.0.0:
@@ -5347,7 +5352,7 @@ lodash._baseflatten@^3.0.0:
 
 lodash._basevalues@^3.0.0:
   version "3.0.0"
-  resolved "https://nexus.cropster.cc/repository/npm/lodash._basevalues/-/lodash._basevalues-3.0.0.tgz#5b775762802bde3d3297503e26300820fdf661b7"
+  resolved "https://registry.yarnpkg.com/lodash._basevalues/-/lodash._basevalues-3.0.0.tgz#5b775762802bde3d3297503e26300820fdf661b7"
   integrity sha1-W3dXYoAr3j0yl1A+JjAIIP32Ybc=
 
 lodash._bindcallback@^3.0.0:
@@ -5542,7 +5547,7 @@ lodash.forown@~2.3.0:
 
 lodash.get@^4.0.0:
   version "4.4.2"
-  resolved "https://nexus.cropster.cc/repository/npm/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
 
 lodash.identity@~2.3.0:
@@ -5562,7 +5567,7 @@ lodash.isarray@^3.0.0:
 
 lodash.isequal@^4.0.0:
   version "4.5.0"
-  resolved "https://nexus.cropster.cc/repository/npm/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.isfunction@~2.3.0:
@@ -5660,7 +5665,7 @@ lodash.templatesettings@~2.3.0:
 
 lodash.toarray@^3.0.0:
   version "3.0.2"
-  resolved "https://nexus.cropster.cc/repository/npm/lodash.toarray/-/lodash.toarray-3.0.2.tgz#2b204f0fa4f51c285c6f00c81d1cea5a23041179"
+  resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-3.0.2.tgz#2b204f0fa4f51c285c6f00c81d1cea5a23041179"
   integrity sha1-KyBPD6T1HChcbwDIHRzqWiMEEXk=
   dependencies:
     lodash._arraycopy "^3.0.0"
@@ -5696,7 +5701,7 @@ lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1:
 
 log-symbols@^1.0.2:
   version "1.0.2"
-  resolved "https://nexus.cropster.cc/repository/npm/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
   integrity sha1-N2/3tY6jCGoPCfrMdGF+ylAeGhg=
   dependencies:
     chalk "^1.0.0"
@@ -5928,7 +5933,7 @@ minimist@0.0.8:
 
 minimist@^0.1.0:
   version "0.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/minimist/-/minimist-0.1.0.tgz#99df657a52574c21c9057497df742790b2b4c0de"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.1.0.tgz#99df657a52574c21c9057497df742790b2b4c0de"
   integrity sha1-md9lelJXTCHJBXSX33QnkLK0wN4=
 
 minimist@^1.1.1, minimist@^1.2.0:
@@ -6077,7 +6082,7 @@ node-fetch@^1.3.3:
 
 node-html-light@^1.0.0:
   version "1.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/node-html-light/-/node-html-light-1.1.0.tgz#667f8cb4fac96cf13a7951af64e7dabbd7d56337"
+  resolved "https://registry.yarnpkg.com/node-html-light/-/node-html-light-1.1.0.tgz#667f8cb4fac96cf13a7951af64e7dabbd7d56337"
   integrity sha512-FF1szX5zPxDgL3MRC/VkfhbUdvgAV8d6HnfzdbrqvSp4GKhPUqdxbySzCeXLGgPttswZzG9j4/GFzSGuKhTI0Q==
   dependencies:
     htmlparser2 "^3.10.0"
@@ -6143,7 +6148,7 @@ nopt@^4.0.1:
 
 nopt@~1.0.10:
   version "1.0.10"
-  resolved "https://nexus.cropster.cc/repository/npm/nopt/-/nopt-1.0.10.tgz#6ddd21bd2a31417b92727dd585f8a6f37608ebee"
+  resolved "https://registry.yarnpkg.com/nopt/-/nopt-1.0.10.tgz#6ddd21bd2a31417b92727dd585f8a6f37608ebee"
   integrity sha1-bd0hvSoxQXuScn3Vhfim83YI6+4=
   dependencies:
     abbrev "1"
@@ -6245,7 +6250,7 @@ object-keys@^1.0.12:
 
 object-path@0.x.x:
   version "0.11.4"
-  resolved "https://nexus.cropster.cc/repository/npm/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
   integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
 
 object-visit@^1.0.0:
@@ -6299,7 +6304,7 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.yarnpkg.com/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
   integrity sha1-ofeDj4MUxRbwXs78vEzP4EtO14k=
 
 onetime@^2.0.0:
@@ -6311,7 +6316,7 @@ onetime@^2.0.0:
 
 opter@^1.1.0:
   version "1.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/opter/-/opter-1.1.0.tgz#2598aebb60b3f1a7322af1097086f4e798c84a76"
+  resolved "https://registry.yarnpkg.com/opter/-/opter-1.1.0.tgz#2598aebb60b3f1a7322af1097086f4e798c84a76"
   integrity sha1-JZiuu2Cz8acyKvEJcIb055jISnY=
   dependencies:
     commander "2.x.x"
@@ -6331,7 +6336,7 @@ optimist@^0.6.1:
 
 ora@^0.3.0:
   version "0.3.0"
-  resolved "https://nexus.cropster.cc/repository/npm/ora/-/ora-0.3.0.tgz#367a078ad25cfb096da501115eb5b401e07d7495"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-0.3.0.tgz#367a078ad25cfb096da501115eb5b401e07d7495"
   integrity sha1-NnoHitJc+wltpQERXrW0AeB9dJU=
   dependencies:
     chalk "^1.1.1"
@@ -6522,7 +6527,7 @@ pify@^3.0.0:
 
 pify@^4.0.0:
   version "4.0.1"
-  resolved "https://nexus.cropster.cc/repository/npm/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
+  resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
 pinkie-promise@^2.0.0:
@@ -6722,7 +6727,7 @@ rc@^1.2.7:
 
 read-files@^0.1.0:
   version "0.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/read-files/-/read-files-0.1.0.tgz#606bb7a0177952d6a2f983d598096094314d321e"
+  resolved "https://registry.yarnpkg.com/read-files/-/read-files-0.1.0.tgz#606bb7a0177952d6a2f983d598096094314d321e"
   integrity sha1-YGu3oBd5Utai+YPVmAlglDFNMh4=
 
 readable-stream@^2.0.0, readable-stream@^2.0.6:
@@ -6739,9 +6744,9 @@ readable-stream@^2.0.0, readable-stream@^2.0.6:
     util-deprecate "~1.0.1"
 
 readable-stream@^3.1.1:
-  version "3.2.0"
-  resolved "https://nexus.cropster.cc/repository/npm/readable-stream/-/readable-stream-3.2.0.tgz#de17f229864c120a9f56945756e4f32c4045245d"
-  integrity sha512-RV20kLjdmpZuTF1INEb9IA3L68Nmi+Ri7ppZqo78wj//Pn62fCoJyV9zalccNzDD/OuJpMG4f+pfMl8+L6QdGw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.3.0.tgz#cb8011aad002eb717bf040291feba8569c986fb9"
+  integrity sha512-EsI+s3k3XsW+fU8fQACLN59ky34AZ14LoeVZpYwmZvldCFo0r0gnelwF2TcMjLor/BTL5aDJVBMkss0dthToPw==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -6984,7 +6989,7 @@ responselike@1.0.2:
 
 restore-cursor@^1.0.1:
   version "1.0.1"
-  resolved "https://nexus.cropster.cc/repository/npm/restore-cursor/-/restore-cursor-1.0.1.tgz#34661f46886327fed2991479152252df92daa541"
+  resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-1.0.1.tgz#34661f46886327fed2991479152252df92daa541"
   integrity sha1-NGYfRohjJ/7SmRR5FSJS35LapUE=
   dependencies:
     exit-hook "^1.0.0"
@@ -7129,7 +7134,7 @@ sane@^2.5.2:
 
 sane@^3.0.0:
   version "3.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/sane/-/sane-3.1.0.tgz#995193b7dc1445ef1fe41ddfca2faf9f111854c6"
+  resolved "https://registry.yarnpkg.com/sane/-/sane-3.1.0.tgz#995193b7dc1445ef1fe41ddfca2faf9f111854c6"
   integrity sha512-G5GClRRxT1cELXfdAq7UKtUsv8q/ZC5k8lQGmjEm4HcAl3HzBy68iglyNCmw4+0tiXPCBZntslHlRhbnsSws+Q==
   dependencies:
     anymatch "^2.0.0"
@@ -7519,7 +7524,7 @@ string_decoder@0.10, string_decoder@~0.10.x:
 
 string_decoder@^1.1.1:
   version "1.2.0"
-  resolved "https://nexus.cropster.cc/repository/npm/string_decoder/-/string_decoder-1.2.0.tgz#fe86e738b19544afe70469243b2a1ee9240eae8d"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.2.0.tgz#fe86e738b19544afe70469243b2a1ee9240eae8d"
   integrity sha512-6YqyX6ZWEYguAxgZzHGL7SsCeGx3V2TtOTqZz1xSTSWnqsbWwbptafNyvf/ACquZUXV3DANr5BDIwNYe1mN42w==
   dependencies:
     safe-buffer "~5.1.0"
@@ -7768,7 +7773,7 @@ to-regex@^3.0.1, to-regex@^3.0.2:
 
 touch@^3.1.0:
   version "3.1.0"
-  resolved "https://nexus.cropster.cc/repository/npm/touch/-/touch-3.1.0.tgz#fe365f5f75ec9ed4e56825e0bb76d24ab74af83b"
+  resolved "https://registry.yarnpkg.com/touch/-/touch-3.1.0.tgz#fe365f5f75ec9ed4e56825e0bb76d24ab74af83b"
   integrity sha512-WBx8Uy5TLtOSRtIq+M03/sKDrXCLHxwDcquSP2c43Le03/9serjQBIztjRz6FkJez9D/hleyAXTBGLwwZUw9lA==
   dependencies:
     nopt "~1.0.10"
@@ -7952,7 +7957,7 @@ validate-npm-package-name@^3.0.0:
 
 validator@^10.0.0:
   version "10.11.0"
-  resolved "https://nexus.cropster.cc/repository/npm/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
   integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
 
 vary@~1.1.2:
@@ -8127,7 +8132,7 @@ yam@^1.0.0:
 
 yargs@~1.2.6:
   version "1.2.6"
-  resolved "https://nexus.cropster.cc/repository/npm/yargs/-/yargs-1.2.6.tgz#9c7b4a82fd5d595b2bf17ab6dcc43135432fe34b"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-1.2.6.tgz#9c7b4a82fd5d595b2bf17ab6dcc43135432fe34b"
   integrity sha1-nHtKgv1dWVsr8Xq23MQxNUMv40s=
   dependencies:
     minimist "^0.1.0"
@@ -8139,14 +8144,14 @@ yeast@0.1.2:
 
 z-schema-errors@0.0.1:
   version "0.0.1"
-  resolved "https://nexus.cropster.cc/repository/npm/z-schema-errors/-/z-schema-errors-0.0.1.tgz#e06270a4ca43925729f25764789ca9f46bff0f7d"
+  resolved "https://registry.yarnpkg.com/z-schema-errors/-/z-schema-errors-0.0.1.tgz#e06270a4ca43925729f25764789ca9f46bff0f7d"
   integrity sha1-4GJwpMpDklcp8ldkeJyp9Gv/D30=
   dependencies:
     xtend "^4.0.0"
 
 z-schema@^3.0.1:
   version "3.25.1"
-  resolved "https://nexus.cropster.cc/repository/npm/z-schema/-/z-schema-3.25.1.tgz#7e14663be2b96003d938a56f644fb8561643fb7e"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-3.25.1.tgz#7e14663be2b96003d938a56f644fb8561643fb7e"
   integrity sha512-7tDlwhrBG+oYFdXNOjILSurpfQyuVgkRe3hB2q8TEssamDHB7BbLWYkYO98nTn0FibfdFroFKDjndbgufAgS/Q==
   dependencies:
     core-js "^2.5.7"
@@ -8158,5 +8163,5 @@ z-schema@^3.0.1:
 
 zlib@^1.0.5:
   version "1.0.5"
-  resolved "https://nexus.cropster.cc/repository/npm/zlib/-/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
+  resolved "https://registry.yarnpkg.com/zlib/-/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
   integrity sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=
